@@ -1,0 +1,100 @@
+@import url("https://fonts.googleapis.com/css2?family=Anton+SC&display=swap");
+
+.img-text {
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  top: 30%;
+  /* background: rgb(253,29,29);
+    background: linear-gradient(90deg, rgba(253,29,29,1) 0%, rgba(255,28,204,1) 100%); */
+  background-clip: text;
+  font-size: 50px;
+}
+
+.nav-item a {
+  text-decoration: none;
+  color: inherit;
+}
+
+.img-sya {
+  opacity: 0.9;
+}
+
+.anton-sc-regular {
+  font-family: "Anton SC", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.pa {
+  margin-top: 70px;
+}
+.card {
+  width: 40rem;
+}
+
+.ap {
+}
+
+@media screen and (min-width: 768px) {
+  .anton-sc-regular {
+    font-size: 120px;
+  }
+  .card {
+    width: 19rem;
+  }
+}
+body {
+  margin: 0;
+}
+main {
+  margin-top: 6rem;
+}
+.nav-item a {
+  text-decoration: none;
+  color: inherit;
+}
+.profile-info h2,
+.profile-info p {
+  margin-bottom: 1rem;
+}
+.hb {
+  position: fixed;
+  top: 0;
+  justify-content: end;
+  z-index: 1;
+  background-color: white;
+  width: auto;
+  height: 100svh;
+  transition: 1s ease-in;
+  right: -50%;
+}
+.bh {
+  right: 0;
+  transition: 1.5s ease;
+}
+.hh {
+  display: flex;
+  flex-direction: column;
+  padding: 40px;
+  color: black;
+}
+.li {
+  position: absolute;
+}
+@media screen and (min-width: 768px) {
+  .hb {
+    position: relative;
+    display: block;
+    right: 0;
+    height: auto;
+    background-color: white;
+  }
+  .hh {
+    color: black;
+    flex-direction: row;
+    padding: 0px;
+    justify-content: center;
+    align-items: center;
+  }
+}
